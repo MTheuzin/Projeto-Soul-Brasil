@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+<title>Formulários</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="soulbrasil.css">
+</head>
+<body>
+	<header>
+<h1>Soul Brasil</h1>
+</header>
+<main>
+<form>
+	<h2>Dados Pessoais</h2>
+	<label>Nome</label>
+	<input type="text" name="camponome" required placeholder="Insira seu nome aqui...">
+	<br>
+	<br>
+
+	<label>RG</label>
+	<input type="text" name="camporg" maxlength="12" required placeholder="00.000.000-0">
+	<br>
+	<br>
+
+	<label>CPF</label>
+	<input type="text" name="campocpf" maxlength="14" required placeholder="000.000.000-00">
+	<br>
+	<br>
+
+	<label>Data de Nascimento</label>
+	<input type="text" name="camporg" maxlength="10" required placeholder="01/01/2000">
+	<br>
+	<br>
+
+	<label>Estado</label>
+	<select name="uf" required>
+	<option value="SP">SP</option>
+	<option value="AC">AC</option>
+	<option value="AL">AL</option>
+	<option value="AP">AP</option>
+  <option value="AM">AM</option>
+	<option value="BA">BA</option>
+	<option value="CE">CE</option>
+	<option value="ES">ES</option>
+	<option value="GO">GO</option>
+	<option value="MA">MA</option>
+	<option value="MT">MT</option>
+	<option value="MS">MS</option>
+	<option value="MG">MG</option>
+	<option value="PA">PA</option>
+	<option value="PB">PB</option>
+	<option value="PR">PR</option>
+	<option value="PE">PE</option>
+	<option value="PI">PI</option>
+	<option value="RJ">RJ</option>
+	<option value="RN">RN</option>
+	<option value="RS">RS</option>
+	<option value="RO">RO</option>
+	<option value="RR">RR</option>
+	<option value="SC">SC</option>
+	<option value="SO">SO</option>
+	<option value="TO">TO</option>
+	<option value="DF">DF</option>
+	<br>
+	<br>
+</select>
+
+	<h2>Dados de Contato</h2>
+	<label>Endereço</label>
+	<input type="text" name="campoendereco" required placeholder="Rua/Bairro/Número">
+	<br>
+	<br>
+
+	<label>Telefone</label>
+	<input type="tel" name="campotel" maxlength="13" required placeholder="(00) 000000000">
+	<br>
+	<br>
+
+	<label>E-Mail</label>
+	<input type="email" name="campoemail" required placeholder="nome@gmail.com">
+	<br>
+	<br>
+
+	<h2>Dados Profissionais</h2>
+	<label>Formação</label>
+	<input type="text" name="campoformacao" required placeholder="Insira aqui sua formação...">
+	<br>
+	<br>
+
+	<label>Áreas que Atua</label>
+	<input type="text" name="campoareas" required placeholder="Insira aqui sua área...">
+	<br>
+	<br>
+
+
+	<label>Principais Habilidades</label>
+	<input type="text" name="campohabilidades" required placeholder="Insira aqui suas habilidades...">
+	<br>
+	<br>
+
+    <label>
+	<input type="submit" value="ENVIAR">
+	<input type="reset" value="LIMPAR">
+    <input type="button" value="SEM FUNÇÃO PRONTA">
+	<br>
+	<br>
+</label>
+</form>
+</main>
+	<footer>
+	Site desenvolvido por Matheus
+	</footer>
+
+</body>
+</html>
